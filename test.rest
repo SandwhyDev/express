@@ -1,0 +1,11 @@
+###
+POST http://localhost:8080/api/user_create
+Content-Type: application/json
+
+{
+    "email" : "sandy@gmail.com",
+    "password" : "qwe"
+}
+
+###
+GET http://localhost:8080/api/user
